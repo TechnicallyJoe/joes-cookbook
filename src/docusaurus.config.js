@@ -1,11 +1,11 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Joes Cookbook',
+  tagline: 'A collection of DevOps centric recipies',
+  url: 'https://cookbook.technicallyjoe.net',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'technicallyjoe', // Usually your GitHub org/user name.
-  projectName: 'joes-cookbook', // Usually your repo name.
+  organizationName: 'technicallyjoe',
+  projectName: 'joes-cookbook',
   themeConfig: {
     navbar: {
       title: 'Joes Cookbook',
@@ -20,9 +20,12 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        /*{ 
+          to: 'blog', 
+          label: 'Blog', 
+          position: 'left' },*/
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/TechnicallyJoe/joes-cookbook',
           label: 'GitHub',
           position: 'right',
         },
@@ -44,7 +47,7 @@ module.exports = {
             },
           ],
         },
-        {
+        /*{
           title: 'Community',
           items: [
             {
@@ -56,26 +59,18 @@ module.exports = {
               href: 'https://discordapp.com/invite/docusaurus',
             },
           ],
-        },
+        },*/
         {
           title: 'Social',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://github.com/TechnicallyJoe/joes-cookbook',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Joes Cookbook, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
