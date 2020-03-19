@@ -15,7 +15,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: 'docs/index',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -81,7 +81,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/TechnicallyJoe/joes-cookbook/edit/master/src/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
