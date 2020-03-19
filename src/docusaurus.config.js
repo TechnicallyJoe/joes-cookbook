@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Joes Cookbook',
+  title: 'Joes DevOps Cookbook',
   tagline: 'A collection of DevOps centric recipies',
   url: 'https://cookbook.technicallyjoe.net',
   baseUrl: '/',
@@ -8,10 +8,10 @@ module.exports = {
   projectName: 'joes-cookbook',
   themeConfig: {
     navbar: {
-      title: 'Joes Cookbook',
+      title: 'Joes DevOps Cookbook',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/favicon.ico',
       },
       links: [
         {
@@ -23,7 +23,8 @@ module.exports = {
         /*{ 
           to: 'blog', 
           label: 'Blog', 
-          position: 'left' },*/
+          position: 'left' 
+        },*/
         {
           href: 'https://github.com/TechnicallyJoe/joes-cookbook',
           label: 'GitHub',
@@ -70,7 +71,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Joes Cookbook, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Joes Cookbook, Inc. Built with Docusaurus, deployed with Netlify`,
     },
   },
   presets: [
