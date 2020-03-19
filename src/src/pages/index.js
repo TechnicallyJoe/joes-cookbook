@@ -72,7 +72,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/index')}>
-              Get Cookin'
+              Get Started
             </Link>
           </div>
         </div>
