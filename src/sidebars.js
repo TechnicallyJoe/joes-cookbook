@@ -1,9 +1,13 @@
 module.exports = {
   someSidebar: {
     Cookbook: [
-      'index',
-      'styleguide',
-      'mdx'
+      'cookbook/index',
+      'cookbook/styleguide',
+      'cookbook/mdx'
+    ],
+    AzureDevOps: [
+      'azuredevops/doc1',
+      'azuredevops/pipelines/doc2'
     ]
   },
 };
