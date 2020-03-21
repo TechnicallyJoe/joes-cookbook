@@ -20,10 +20,10 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        /*{ 
-          to: 'blog', 
-          label: 'Blog', 
-          position: 'left' 
+        /*{
+          to: 'blog',
+          label: 'Blog',
+          position: 'left'
         },*/
         {
           href: 'https://github.com/TechnicallyJoe/joes-cookbook',
@@ -48,30 +48,34 @@ module.exports = {
             },
           ],
         },
-        /*{
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-          ],
-        },*/
         {
-          title: 'Social',
+          title: 'Community',
           items: [
             {
               label: 'GitHub',
               href: 'https://github.com/TechnicallyJoe/joes-cookbook',
             },
+            {
+              label: 'Discord',
+              href: 'https://discord.gg/4Q3rbnn',
+            },
+          ],
+        },
+        {
+          title: 'Site Built Using:',
+          items: [
+            {
+              label: 'Netlify',
+              href: 'https://www.netlify.com/',
+            },
+            {
+              label: 'Docusaurus v2',
+              href: 'https://v2.docusaurus.io/',
+            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Joes Cookbook, Inc. Built with Docusaurus, deployed with Netlify`,
+      copyright: `Copyright © ${new Date().getFullYear()} Joes Cookbook`,
     },
   },
   presets: [
