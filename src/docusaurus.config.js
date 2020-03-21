@@ -15,7 +15,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/index',
+          to: 'docs/cookbook/overview',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -39,13 +39,14 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: 'Overview',
+              to: 'docs/cookbook/overview',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'Style Guide',
+              to: 'docs/cookbook/styleguide',
             },
+
           ],
         },
         {
@@ -62,7 +63,7 @@ module.exports = {
           ],
         },
         {
-          title: 'Site Built Using:',
+          title: 'Built Using:',
           items: [
             {
               label: 'Netlify',
