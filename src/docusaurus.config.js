@@ -15,7 +15,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/cookbook/overview',
+          to: 'docs/cookbook/about',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -39,8 +39,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Overview',
-              to: 'docs/cookbook/overview',
+              label: 'About',
+              to: 'docs/cookbook/about',
             },
             {
               label: 'Style Guide',

@@ -1,7 +1,7 @@
 module.exports = {
   someSidebar: {
     Cookbook: [
-      'cookbook/overview',
+      'cookbook/about',
       'cookbook/styleguide',
       'cookbook/mdx'
     ],
