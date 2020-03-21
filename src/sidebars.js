@@ -6,7 +6,8 @@ module.exports = {
       'cookbook/mdx'
     ],
     AzureDevOps: [
-      'azuredevops/multi-stage-pipelines'
+      'azuredevops/multi-stage-pipelines',
+      'azuredevops/pipeline-linting'
     ]
   },
 };
