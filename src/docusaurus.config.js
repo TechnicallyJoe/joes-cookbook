@@ -8,9 +8,9 @@ module.exports = {
   projectName: 'joes-cookbook',
   themeConfig: {
     navbar: {
-      title: 'Joes DevOps Cookbook',
+      title: 'Joes Cookbook',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Site Logo',
         src: 'img/favicon.ico',
       },
       links: [
