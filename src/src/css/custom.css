@@ -15,6 +15,17 @@
   --ifm-color-primary-lighter: #f1805e;
   --ifm-color-primary-lightest: #f4a086;
   --ifm-code-font-size: 95%;
+  --ifm-navbar-background-color: #24292e;
+  --ifm-navbar-link-color: #f5f6f7;
+  --ifm-background-surface-color: #24292e;
+}
+
+.navbar__toggle {
+  color: var(--ifm-navbar-link-color);
+}
+
+.button.button--secondary.button--outline:not(.button--active):not(:hover) {
+  color: #f5f6f7;
 }
 
 .docusaurus-highlight-code-line {
