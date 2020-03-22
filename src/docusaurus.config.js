@@ -63,8 +63,12 @@ module.exports = {
           ],
         },
         {
-          title: 'Built Using:',
+          title: 'Powered by',
           items: [
+            {
+              label: 'Github',
+              href: 'https://github.com/',
+            },
             {
               label: 'Netlify',
               href: 'https://www.netlify.com/',
