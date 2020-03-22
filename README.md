@@ -1,3 +1,7 @@
+# Joes Cookbook
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f64c65d0-ced1-4f1b-bb01-dde5395ad94f/deploy-status)](https://app.netlify.com/sites/joes-cookbook/deploys)
+
 # Website
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
