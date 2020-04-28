@@ -166,7 +166,7 @@ Reference-style: ![alt text][logo]
 
 ---
 
-## Code
+## Code Highlighting
 
 ```javascript
 var s = 'JavaScript syntax highlighting';
@@ -188,6 +188,33 @@ function highlightMe() {
   console.log('This line can be highlighted!');
 }
 ```
+
+---
+
+## Code Blocks
+
+ **Inline code** must use single backticks and must not have spaces between
+ the backtick characters and the code.
+ ```
+ # Bad
+ ` .this-is-wrong `
+ # Good
+ `.this-is-good`
+ ```
+ **Fenced code blocks** must be preceded and followed by a newline.
+ When used inside _list items_, **fenced code blocks** must be indented as
+ if they were one level deeper that the list item that contains them.
+ ```
+   - This list item contains a fenced code block.
+   - Let's show how it might interact with a list.
+     ```
+     .code-example {
+       property: value;
+     }
+     ```
+ There is a newline above this paragraph because it is both the end of a
+ list and because it follows a fenced code block.
+ ```
 
 ---
 
